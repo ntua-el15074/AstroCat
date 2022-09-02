@@ -137,7 +137,7 @@ def draw_window(cat1, particle1, particle2):
     particle1.emit()
     particle2.emit(-2.5)
     cat1.draw_cat()
-    pygame.display.update()   
+    pygame.display.update()
 
 
 def aura(cat1, particle1):
@@ -163,18 +163,18 @@ def main():
 
 
     run = True
-    while run: 
+    while run:
         clock.tick(FPS)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
-            
+
             if event.type == PARTICLE_EVENT:
                 aura(cat1, particle1)
 
             if event.type == PARTICLE_EVENT2:
                 rainbow_dash(cat1, particle2, command)
-        
+
         command = pygame.key.get_pressed()
 
         draw_window(cat1, particle1, particle2)
