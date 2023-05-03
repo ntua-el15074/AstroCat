@@ -1,5 +1,4 @@
 # PIXIE THE ASTRO CAT
-#### Video Demo:  <URL HERE>
 #### Description: Nyan Cat clone with user input for rainbow dash and meowing
 #### I used the pygame library, to create a window where the user can play with Pixie, the Astro Cat
 #### I implemented three classes, the Cat class, which creates, draws and helps you move this cat
